@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/sendsay-test-app/static/css/main.b6e9e667.chunk.css",
+    "main.js": "/sendsay-test-app/static/js/main.4bdbce9d.chunk.js",
+    "main.js.map": "/sendsay-test-app/static/js/main.4bdbce9d.chunk.js.map",
+    "runtime-main.js": "/sendsay-test-app/static/js/runtime-main.77220395.js",
+    "runtime-main.js.map": "/sendsay-test-app/static/js/runtime-main.77220395.js.map",
+    "static/js/2.2ec823b6.chunk.js": "/sendsay-test-app/static/js/2.2ec823b6.chunk.js",
+    "static/js/2.2ec823b6.chunk.js.map": "/sendsay-test-app/static/js/2.2ec823b6.chunk.js.map",
+    "index.html": "/sendsay-test-app/index.html",
+    "precache-manifest.90efffebfcc3dd3f0fd33fa51625bd0e.js": "/sendsay-test-app/precache-manifest.90efffebfcc3dd3f0fd33fa51625bd0e.js",
+    "service-worker.js": "/sendsay-test-app/service-worker.js",
+    "static/css/main.b6e9e667.chunk.css.map": "/sendsay-test-app/static/css/main.b6e9e667.chunk.css.map",
+    "static/js/2.2ec823b6.chunk.js.LICENSE": "/sendsay-test-app/static/js/2.2ec823b6.chunk.js.LICENSE",
+    "static/media/LOGO.svg": "/sendsay-test-app/static/media/LOGO.bb549f93.svg",
+    "static/media/index.css": "/sendsay-test-app/static/media/SFProDisplay-Regular.f5177482.woff2",
+    "static/media/icon-clip-big.svg": "/sendsay-test-app/static/media/icon-clip-big.85f937d4.svg",
+    "static/media/InputTypeFile.css": "/sendsay-test-app/static/media/icon-clip.708d2827.svg",
+    "static/media/AttachedFileField.css": "/sendsay-test-app/static/media/icon-trash.dc90b2f6.svg",
+    "static/media/icon-warning.svg": "/sendsay-test-app/static/media/icon-warning.43ccd05e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.77220395.js",
+    "static/js/2.2ec823b6.chunk.js",
+    "static/css/main.b6e9e667.chunk.css",
+    "static/js/main.4bdbce9d.chunk.js"
+  ]
+}
