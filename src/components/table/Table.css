@@ -1,0 +1,77 @@
+.Table {
+  width: 740px;
+  border-collapse: collapse;
+}
+
+.Table-cell {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+  position: relative;
+}
+
+.Table-rowHeading {
+  margin-bottom: 2px;
+  border-bottom: 1px solid #DDDDDD;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.Table-cellHeading {
+  color: #000000;
+  opacity: 0.4;
+}
+
+.Table-cell .Table-cellMessageTheme {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.Table-cellStatus .is-waiting {
+  color: #999999;
+}
+
+.Table-cellStatus .is-success {
+  color: #03A100;
+}
+
+.Table-cellStatus .is-error {
+  color: #FF6666;
+}
+
+/* TODO: Solve how to very long message-theme-text will be display on hover effect */
+
+/* .Table-cellMessageTheme:hover {
+  position: absolute;
+  width: auto;
+  top: 0;
+  left: 0;
+  background-color: rgba(225, 225, 225, 0.85);
+  white-space: normal;
+  z-index: 1;
+} */
+
+.Table-cell:nth-child(-n+2) {
+  text-align: left;
+}
+
+.Table-cell:nth-child(3) {
+  text-align: right;
+}
+
+.Table-cell:nth-child(1), .Table-cell:nth-child(3) {
+  width: 15%;
+}
+
+.Table-cell:nth-child(2) {
+  width: 70%;
+}
+
+.Table-row:hover {
+  background-color: #E1E1E1;
+}

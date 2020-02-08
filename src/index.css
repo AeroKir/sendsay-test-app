@@ -1,0 +1,62 @@
+/* css reset */
+
+/* Set box-sizing to border-box for all elements */
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Reset margins and paddings on most elements */
+
+body, h1, h2, h3, h4, h5, h6, ul, ol, li, p, pre, blockquote, figure, hr {
+  margin: 0;
+  padding: 0;
+}
+
+/* Removes discs from ul */
+
+ul {
+  list-style: none;
+}
+
+input, textarea, select, button {
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+}
+
+input, textarea, button {
+  border: 1px solid gray;
+}
+
+fieldset {
+  border: none;
+}
+
+legend {
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+/* Remove default underline for links */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Fonts */
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('./fonts/SFProDisplay-Regular.woff2') format('woff2'),
+      url('./fonts/SFProDisplay-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #F7F7F7;
+  font-family: 'SF Pro Display', Arial, Helvetica, sans-serif;
+}
