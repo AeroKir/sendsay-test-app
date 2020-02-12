@@ -5,7 +5,7 @@ import classNames from 'classnames';
 import './Button.css';
 
 function Button({
-  children, className, onClick, disabled, centered, buttonText, secondaryButton,
+  className, onClick, disabled, centered, buttonText, secondaryButton,
 }) {
   const onClickAction = (e) => {
     if (disabled) {
@@ -32,13 +32,11 @@ function Button({
       disabled={disabled}
     >
       {buttonText}
-      {children}
     </button>
   );
 }
 
 Button.propTypes = {
-  children: PropTypes.node,
   className: PropTypes.string,
   onClick: PropTypes.func,
   disabled: PropTypes.bool,
@@ -48,7 +46,6 @@ Button.propTypes = {
 };
 
 Button.defaultProps = {
-  children: null,
   className: '',
   onClick: () => { },
   disabled: false,
