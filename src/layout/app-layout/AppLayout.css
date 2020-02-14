@@ -1,12 +1,16 @@
 .AppLayoutWrapper {
-  width: 960px;
+  display: flex;
+  flex-direction: column;
+}
+
+.AppLogoWrapper {
+  width: 800px;
   margin: 0 auto;
 }
 
 .AppLogo {
   width: 230px;
   height: 60px;
-  margin-left: 80px;
   margin-top: 40px;
   margin-bottom: 20px;
 }
