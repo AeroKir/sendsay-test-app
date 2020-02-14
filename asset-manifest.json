@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/sendsay-test-app/static/css/main.b6e9e667.chunk.css",
-    "main.js": "/sendsay-test-app/static/js/main.4bdbce9d.chunk.js",
-    "main.js.map": "/sendsay-test-app/static/js/main.4bdbce9d.chunk.js.map",
+    "main.css": "/sendsay-test-app/static/css/main.f6c33190.chunk.css",
+    "main.js": "/sendsay-test-app/static/js/main.9d389112.chunk.js",
+    "main.js.map": "/sendsay-test-app/static/js/main.9d389112.chunk.js.map",
     "runtime-main.js": "/sendsay-test-app/static/js/runtime-main.77220395.js",
     "runtime-main.js.map": "/sendsay-test-app/static/js/runtime-main.77220395.js.map",
-    "static/js/2.2ec823b6.chunk.js": "/sendsay-test-app/static/js/2.2ec823b6.chunk.js",
-    "static/js/2.2ec823b6.chunk.js.map": "/sendsay-test-app/static/js/2.2ec823b6.chunk.js.map",
+    "static/js/2.f0e25f30.chunk.js": "/sendsay-test-app/static/js/2.f0e25f30.chunk.js",
+    "static/js/2.f0e25f30.chunk.js.map": "/sendsay-test-app/static/js/2.f0e25f30.chunk.js.map",
     "index.html": "/sendsay-test-app/index.html",
-    "precache-manifest.8e676533351054e7b8ce4a749c555934.js": "/sendsay-test-app/precache-manifest.8e676533351054e7b8ce4a749c555934.js",
+    "precache-manifest.13998b885f824437d71ca5ff553b531b.js": "/sendsay-test-app/precache-manifest.13998b885f824437d71ca5ff553b531b.js",
     "service-worker.js": "/sendsay-test-app/service-worker.js",
-    "static/css/main.b6e9e667.chunk.css.map": "/sendsay-test-app/static/css/main.b6e9e667.chunk.css.map",
-    "static/js/2.2ec823b6.chunk.js.LICENSE": "/sendsay-test-app/static/js/2.2ec823b6.chunk.js.LICENSE",
+    "static/css/main.f6c33190.chunk.css.map": "/sendsay-test-app/static/css/main.f6c33190.chunk.css.map",
+    "static/js/2.f0e25f30.chunk.js.LICENSE": "/sendsay-test-app/static/js/2.f0e25f30.chunk.js.LICENSE",
     "static/media/LOGO.svg": "/sendsay-test-app/static/media/LOGO.bb549f93.svg",
     "static/media/index.css": "/sendsay-test-app/static/media/SFProDisplay-Regular.f5177482.woff2",
     "static/media/icon-clip-big.svg": "/sendsay-test-app/static/media/icon-clip-big.85f937d4.svg",
@@ -21,8 +21,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.77220395.js",
-    "static/js/2.2ec823b6.chunk.js",
-    "static/css/main.b6e9e667.chunk.css",
-    "static/js/main.4bdbce9d.chunk.js"
+    "static/js/2.f0e25f30.chunk.js",
+    "static/css/main.f6c33190.chunk.css",
+    "static/js/main.9d389112.chunk.js"
   ]
 }
