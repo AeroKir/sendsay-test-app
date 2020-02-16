@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f3ca3350c12e09f165a674b3a6456dfb",
+    "revision": "b8c38a5f9c4946483060f8942e716eca",
     "url": "/sendsay-test-app/index.html"
   },
   {
-    "revision": "70b005d1354b940bd12d",
-    "url": "/sendsay-test-app/static/css/main.f6c33190.chunk.css"
+    "revision": "2be64d3dea16bf01cad4",
+    "url": "/sendsay-test-app/static/css/main.0199987b.chunk.css"
   },
   {
     "revision": "27e16b1e261ba0ce156b",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sendsay-test-app/static/js/2.f0e25f30.chunk.js.LICENSE"
   },
   {
-    "revision": "70b005d1354b940bd12d",
-    "url": "/sendsay-test-app/static/js/main.9d389112.chunk.js"
+    "revision": "2be64d3dea16bf01cad4",
+    "url": "/sendsay-test-app/static/js/main.dbd7b598.chunk.js"
   },
   {
     "revision": "3567803954cddf785671",

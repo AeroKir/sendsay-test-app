@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/sendsay-test-app/static/css/main.f6c33190.chunk.css",
-    "main.js": "/sendsay-test-app/static/js/main.9d389112.chunk.js",
-    "main.js.map": "/sendsay-test-app/static/js/main.9d389112.chunk.js.map",
+    "main.css": "/sendsay-test-app/static/css/main.0199987b.chunk.css",
+    "main.js": "/sendsay-test-app/static/js/main.dbd7b598.chunk.js",
+    "main.js.map": "/sendsay-test-app/static/js/main.dbd7b598.chunk.js.map",
     "runtime-main.js": "/sendsay-test-app/static/js/runtime-main.77220395.js",
     "runtime-main.js.map": "/sendsay-test-app/static/js/runtime-main.77220395.js.map",
     "static/js/2.f0e25f30.chunk.js": "/sendsay-test-app/static/js/2.f0e25f30.chunk.js",
     "static/js/2.f0e25f30.chunk.js.map": "/sendsay-test-app/static/js/2.f0e25f30.chunk.js.map",
     "index.html": "/sendsay-test-app/index.html",
-    "precache-manifest.13998b885f824437d71ca5ff553b531b.js": "/sendsay-test-app/precache-manifest.13998b885f824437d71ca5ff553b531b.js",
+    "precache-manifest.e58d8587ac870bb764e2f605bc196f7f.js": "/sendsay-test-app/precache-manifest.e58d8587ac870bb764e2f605bc196f7f.js",
     "service-worker.js": "/sendsay-test-app/service-worker.js",
-    "static/css/main.f6c33190.chunk.css.map": "/sendsay-test-app/static/css/main.f6c33190.chunk.css.map",
+    "static/css/main.0199987b.chunk.css.map": "/sendsay-test-app/static/css/main.0199987b.chunk.css.map",
     "static/js/2.f0e25f30.chunk.js.LICENSE": "/sendsay-test-app/static/js/2.f0e25f30.chunk.js.LICENSE",
     "static/media/LOGO.svg": "/sendsay-test-app/static/media/LOGO.bb549f93.svg",
     "static/media/index.css": "/sendsay-test-app/static/media/SFProDisplay-Regular.f5177482.woff2",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.77220395.js",
     "static/js/2.f0e25f30.chunk.js",
-    "static/css/main.f6c33190.chunk.css",
-    "static/js/main.9d389112.chunk.js"
+    "static/css/main.0199987b.chunk.css",
+    "static/js/main.dbd7b598.chunk.js"
   ]
 }
