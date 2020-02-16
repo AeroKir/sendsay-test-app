@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b8c38a5f9c4946483060f8942e716eca",
+    "revision": "b60476292bc18040364bbe4c24bd7361",
     "url": "/sendsay-test-app/index.html"
   },
   {
-    "revision": "2be64d3dea16bf01cad4",
-    "url": "/sendsay-test-app/static/css/main.0199987b.chunk.css"
+    "revision": "1c567367094dd56540f1",
+    "url": "/sendsay-test-app/static/css/main.7dedf913.chunk.css"
   },
   {
     "revision": "27e16b1e261ba0ce156b",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sendsay-test-app/static/js/2.f0e25f30.chunk.js.LICENSE"
   },
   {
-    "revision": "2be64d3dea16bf01cad4",
+    "revision": "1c567367094dd56540f1",
     "url": "/sendsay-test-app/static/js/main.dbd7b598.chunk.js"
   },
   {
@@ -26,14 +26,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bb549f9347cda4460db48a6c1dbd936a",
     "url": "/sendsay-test-app/static/media/LOGO.bb549f93.svg"
-  },
-  {
-    "revision": "79672ab9198fb5cd5d61c5e3af5fb385",
-    "url": "/sendsay-test-app/static/media/SFProDisplay-Regular.79672ab9.woff"
-  },
-  {
-    "revision": "f51774821b5274771e2b637f7c278abf",
-    "url": "/sendsay-test-app/static/media/SFProDisplay-Regular.f5177482.woff2"
   },
   {
     "revision": "85f937d4e7e5aea82be7697400a789bf",
