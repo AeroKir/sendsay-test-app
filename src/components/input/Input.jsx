@@ -21,6 +21,10 @@ function Input({
   const wrapperClasses = classNames(
     'InputWrapper',
     className,
+    {
+      'InputWrapper--halfLeft': inputHalfLeft,
+      'InputWrapper--halfRight': inputHalfRight,
+    },
   );
 
   const inputClasses = classNames(
