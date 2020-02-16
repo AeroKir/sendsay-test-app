@@ -39,3 +39,15 @@
 .u-letterSpacing {
   letter-spacing: 1px;
 }
+
+/* @media styles */
+
+@media screen and (max-width: 840px) {
+  .AppLogoWrapper, .SendedMessagesInfo {
+    width: 100%;
+    padding-left: 20px;
+  }
+  .SendedMessagesInfo {
+    padding-right: 10px;
+  }
+}

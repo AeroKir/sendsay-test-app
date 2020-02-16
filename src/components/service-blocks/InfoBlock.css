@@ -106,3 +106,11 @@
     opacity: 1;
   }
 }
+
+/* @media styles */
+
+@media screen and (max-width: 840px) and (min-width: 320px) {
+  .InfoBlock, .InfoBlock-content, .InfoBlock-message, .InfoBlock-footer {
+    width: 100%;
+  }
+}

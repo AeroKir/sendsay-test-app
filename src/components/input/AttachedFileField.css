@@ -14,48 +14,10 @@
   background-color: #FFFFFF;
   border: 1px solid #DDDDDD;
   border-radius: 5px;
-  /* -webkit-animation: scale-up-top 0.7s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-  animation: scale-up-top 0.7s cubic-bezier(0.390, 0.575, 0.565, 1.000) both; */
 }
 
 .AttachedFileField--firstInRow {
   margin-right: 10px;
-}
-
-/**
- * ----------------------------------------
- * animation scale-up-top
- * ----------------------------------------
- */
-
-@-webkit-keyframes scale-up-top {
-  0% {
-    -webkit-transform: scale(0.5);
-    transform: scale(0.5);
-    -webkit-transform-origin: 50% 0%;
-    transform-origin: 50% 0%;
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transform-origin: 50% 0%;
-    transform-origin: 50% 0%;
-  }
-}
-
-@keyframes scale-up-top {
-  0% {
-    -webkit-transform: scale(0.5);
-    transform: scale(0.5);
-    -webkit-transform-origin: 50% 0%;
-    transform-origin: 50% 0%;
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transform-origin: 50% 0%;
-    transform-origin: 50% 0%;
-  }
 }
 
 .AttachedFileField-icon {
@@ -117,4 +79,35 @@
   left: 25px;
   display: flex;
   overflow: visible;
+}
+
+/* @media styles */
+
+@media screen and (max-width: 840px) and (min-width: 581px) {
+  .AttachedFileFieldWrapper {
+    width: calc(100% / 2);
+  }
+  .AttachedFileField--firstInRow, .AttachedFileField {
+    width: 100%;
+  }
+  .AttachedFileField-fileNameField {
+    line-height: 20px;
+    padding-left: 5px;
+  }
+}
+
+@media screen and (max-width: 580px) and (min-width: 320px) {
+  .AttachedFileFieldWrapper {
+    width: 100%;
+  }
+  .AttachedFileField {
+    width: 100%;
+  }
+  .AttachedFileField--firstInRow {
+    margin-right: 0;
+  }
+  .AttachedFileField-fileNameField {
+    line-height: 20px;
+    padding-left: 5px;
+  }
 }

@@ -7,7 +7,7 @@
 }
 
 .InputWrapper--halfLeft, .InputWrapper--halfRight {
-  width: 370px;
+  /* width: 370px; */
 }
 
 .Input {
@@ -69,4 +69,29 @@
   bottom: 6px;
   font-size: 16px;
   color: #FF6666;
+}
+
+/* @media styles */
+
+@media screen and (max-width: 840px) and (min-width: 320px) {
+  .InputWrapper, .Input {
+    width: 100%;
+  }
+  .InputWrapper--halfLeft, .InputWrapper--halfRight {
+    width: calc(100% / 2);
+  }
+  .Input--halfLeft, .Input--halfRight {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 501px) and (min-width: 320px) {
+  .InputWrapper--halfLeft, .InputWrapper--halfRight {
+    width: 100%;
+  }
+  .Input--halfLeft, .Input--halfRight {
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+  }
 }
