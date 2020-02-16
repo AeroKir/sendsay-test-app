@@ -46,17 +46,7 @@ a {
   color: inherit;
 }
 
-/* Fonts */
-
-@font-face {
-  font-family: 'SF Pro Display';
-  src: url('./fonts/SFProDisplay-Regular.woff2') format('woff2'),
-      url('./fonts/SFProDisplay-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
 body {
   background-color: #F7F7F7;
-  font-family: 'SF Pro Display', Arial, Helvetica, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
