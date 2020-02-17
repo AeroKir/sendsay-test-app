@@ -1,5 +1,5 @@
 # Форма отправки сообщений. Тестовое задание для [sendsay.ru](https://sendsay.ru/).
-## Работающую версию задания [можно псомотреть здесь](https://aerokir.github.io/sendsay-test-app/).
+## Работающую версию задания [можно посмотреть здесь](https://aerokir.github.io/sendsay-test-app/).
 
 ### Условия задания по [ссылке](https://www.notion.so/Frontend-4263b61293224088b7c3f929b761f9e3).
 ***
