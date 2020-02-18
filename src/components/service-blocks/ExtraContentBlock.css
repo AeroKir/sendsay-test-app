@@ -1,8 +1,0 @@
-.ExtraContentBlock {
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  justify-content: space-between;
-  margin-bottom: 20px;
-}
