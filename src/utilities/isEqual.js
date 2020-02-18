@@ -1,3 +1,4 @@
+// Deep equality for objects
 export const isObjectsEqual = (objFirst, objSecond) => (typeof objFirst === 'object' && Object.keys(objFirst).length > 0
   ? Object.keys(objFirst).length === Object.keys(objSecond).length
   && Object.keys(objFirst).every((key) => isObjectsEqual(objFirst[key], objSecond[key]))
