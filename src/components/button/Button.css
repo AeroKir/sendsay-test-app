@@ -1,0 +1,72 @@
+.Button {
+  position: relative;
+  width: 140px;
+  height: 40px;
+  background: linear-gradient(180deg, #45A6FF 0%, #0055FB 100%), #C4C4C4;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.Button:focus {
+  background: linear-gradient(180deg, #45A6FF 0%, #0055FB 100%), #C4C4C4;
+  outline: none;
+}
+
+.Button:focus::before, .Button:focus::after {
+  content: '';
+  position: absolute;
+  width: 144px;
+  height: 44px;
+  left: -2px;
+  top: -2px;
+  opacity: 0.5;
+  border: 2px solid #45A5FF;
+  border-radius: 7px;
+}
+
+.Button:hover {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), linear-gradient(180deg, #45A6FF 0%, #0055FB 100%), #C4C4C4;
+}
+
+.Button:active {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), linear-gradient(180deg, #45A6FF 0%, #0055FB 100%), #C4C4C4;
+}
+
+.Button.is-disabled {
+  background: linear-gradient(0deg, #C4C4C4, #C4C4C4), linear-gradient(180deg, #45A6FF 0%, #0055FB 100%);
+  cursor: auto;
+}
+
+.Button.is-centered {
+  margin: 0 auto;
+}
+
+.Button--secondary {
+  width: 150px;
+  color: rgba(13, 13, 13, 0.8);
+  background: rgba(151, 151, 151, 1);
+}
+
+.Button--secondary:hover {
+  background: rgba(151, 151, 151, 0.5);
+}
+
+.Button--secondary:focus {
+  background: rgba(151, 151, 151, 1);
+}
+
+.Button--secondary:focus::before, .Button--secondary:focus::after {
+  content: '';
+  position: absolute;
+  width: 154px;
+  height: 44px;
+  left: -2px;
+  top: -2px;
+  opacity: 0.5;
+  border: 2px solid rgba(13, 13, 13, 0.3);
+  border-radius: 7px;
+}

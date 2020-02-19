@@ -1,0 +1,51 @@
+.TextareaWrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+
+.Textarea {
+  position: relative;
+  width: 740px;
+  height: 140px;
+  resize: none;
+  background: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.Textarea-label {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.Textarea:focus {
+  outline: none;
+  opacity: 0.5;
+  border: 2px solid #45A5FF;
+  border-radius: 5px;
+}
+
+.is-error-textarea {
+  position: absolute;
+  left: 10px;
+  bottom: 0;
+  font-size: 16px;
+  color: #FF6666;
+}
+/* @media styles */
+
+@media screen and (max-width: 840px) and (min-width: 320px) {
+  .TextareaWrapper, .Textarea {
+    width: 100%;
+  }
+}
